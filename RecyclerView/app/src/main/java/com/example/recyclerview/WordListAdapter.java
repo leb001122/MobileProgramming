@@ -43,22 +43,24 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
     }
 
 
-    public class WordViewHolder extends RecyclerView.ViewHolder {
+    public class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         public final TextView wordItemView;
         final WordListAdapter adapter;
 
-        public WordViewHolder(View itemView, WordListAdapter adapter) {
+        public WordViewHolder(@NonNull View itemView, WordListAdapter adapter) {
             super(itemView);
             wordItemView = itemView.findViewById(R.id.word);
             this.adapter = adapter;
+            itemView.setOnClickListener(this);
+        }
 
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-                }
-            });
+        @Override
+        public void onClick(View view) {
+            int position = getLayoutPosition();
+            String element = wordList.get(position);
+            wordList.set(position, "Clicked " + element);
+            adapter.notifyDataSetChanged(); // 아이템의 내용이 바뀌면 반드시 어댑터에게 알려야함.
         }
     }
 
