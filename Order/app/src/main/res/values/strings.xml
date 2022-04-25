@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Order</string>
+    <string name="text">커피에 추가하기</string>
+    <string name="menu1">DeCaffeine</string>
+    <string name="menu2">Espresso</string>
+    <string name="menu3">콜롬비아</string>
+    <string name="add1">Cream</string>
+    <string name="add2">Sugar</string>
+    <string name="pay">PAY</string>
+
+</resources>

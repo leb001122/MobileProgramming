@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioG"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <RadioButton
+            android:id="@+id/iceAme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이스아메리카노"/>
+
+        <RadioButton
+            android:id="@+id/mint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="민트초코프라푸치노"/>
+
+        <RadioButton
+            android:id="@+id/amond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아몬드밀크"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나는 바보다"/>
+
+    <ToggleButton
+        android:id="@+id/toggle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스위치"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="결과"
+        android:textSize="20sp" />
+
+</LinearLayout>
