@@ -1,0 +1,9 @@
+com/example/recyclerview2/BuildConfig.java
+ com.example.recyclerview2.BuildConfig
+com/example/recyclerview2/Item.java
+ com.example.recyclerview2.Item
+com/example/recyclerview2/WordListAdapter.java
+ com.example.recyclerview2.WordListAdapter
+ com.example.recyclerview2.WordListAdapter$MyViewHolder
+com/example/recyclerview2/MainActivity.java
+ com.example.recyclerview2.MainActivity
