@@ -2744,6 +2744,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_view
 id immediateStop
 id included
 id info
@@ -3094,6 +3095,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_image
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
